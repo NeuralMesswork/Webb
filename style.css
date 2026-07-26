@@ -166,7 +166,7 @@ section {
     position: relative;
 }
 
-#studies summary:hover {
+#my-studies summary:hover {
     color: var(--color-1);
 }
 
