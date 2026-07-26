@@ -42,6 +42,7 @@ nav ul {
     list-style-type: none;
     gap: 2em;
     font-size: 18px;
+    flex-wrap: wrap;
 }
 
 nav li:first-child {
