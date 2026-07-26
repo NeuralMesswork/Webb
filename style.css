@@ -151,10 +151,11 @@ section p {
 section {
     padding: 3em min(2em, 15%);
     background-color: var(--color-2);
-    
 }
 
-
+#my-studies summary {
+    cursor: pointer;
+}
 
 #my-studies summary::before {
     content: "▸";
@@ -163,6 +164,10 @@ section {
     margin-right: 10px;
     text-align: center;
     position: relative;
+}
+
+#studies summary:hover {
+    color: var(--color-1);
 }
 
 #my-studies details[open] summary::before {
