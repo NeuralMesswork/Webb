@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
+
+:root {
+    --base-color: #1b2824;
+    --text-color: #000000;
+    --primary-color: #1b2824;
+    --secondary-color: #304e4d;
+    --color-1: #9d7960;
+    --color-2: #d6c7b2;
+    --color-3: #f6f3f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Noto sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+}
+
+body {
+    padding: 1em;
+    background-color: var(--base-color);
+}
+
+h1, h2, h3 {
+    font-family: Merriweather, Noto Sans, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    margin: 1em auto 3em auto;
+    width: min(1000px, 100%);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+    font-size: 18px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+    font-family: merriweather, Noto Sans;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header, section {
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: var(--color-1);
+    padding: min(2em, 15%);
+    border-radius: 1em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img {
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    object-position: top;
+}
+
+.text-container {
+    flex: 0 1 34em;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.text-container p {
+    margin: .75em 0 1em 0;
+    font-size: 1.25rem;
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary-color);
+    padding: .75rem 1.25em;
+    border-radius: .5em;
+    font-weight: 600;
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+section {
+    padding: 3em min(2em, 15%);
+    background-color: var(--color-2);
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+section p {
+    margin-top: 1em;
+    font-size: 1.25rem;
+}
+
+.pdf-title {
+    margin-top: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.pdf-description {
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+#my-work {
+    margin: 0 auto;
+}
+
+#my-work .text-container h3 {
+    margin-top: 1.6rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+#my-work .text-container p {
+    margin-top: 0 !important;
+
+}
+
+#my-work details {
+    margin-bottom: 1rem;
+    border-left: 4px solid var(--color-1);
+    padding-left: 1rem;
+}
+
+#my-work summary {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.8rem 0;
+}
+
+#my-work summary::before {
+    content: "▸";
+    font-size: 1.6rem;
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+#my-work details[open] summary::before {
+    content: "▾";
+}
+
+#my-work summary:hover {
+    color: var(--color-1);
+}
+
+#my-work p {
+    margin-top: 0.5rem;
+    max-width: 40ch;
+    margin-left: 25px;
+}
+
+#kontakt {
+    background-color: var(--color-1);
+    
+}
+
+
+#kontakt .kontakt-lankar {
+    margin-top: 1.5rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+#kontakt .kontakt-lankar a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+#kontakt .kontakt-lankar a:hover {
+    text-decoration: underline;
+}
+
+.secret-achievement {
+    color: var(--color-2);
+    cursor: default;
+}
+
+.secret-achievement span {
+    display: none;
+}
+
+.secret-achievement:hover span {
+    display: block;
+    position: absolute;
+    background: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 300px;
+    z-index: 9999;
+}
