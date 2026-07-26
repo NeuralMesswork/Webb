@@ -13,7 +13,7 @@
                 <li><a href="index.html">Lie Printz</a></li>
                 <li><a href="#my-studies">Mina studiearbeten</a></li>
                 <li><a href="#my-work">Arbetslivet</a></li>
-                <li><a href="#my-">Studier</a></li>
+                <li><a href="#my-skola">Studier</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
@@ -41,7 +41,8 @@
 </section>
 
 <section id="my-studies">
-    <h2>Utvalda projekt och studiearbeten</h2>
+    <details id="main-studies">
+   <summary class="main-summary"><h2>Utvalda projekt och studiearbeten</h2></summary>
     <p class="studies-intro">Här presenteras ett urval av arbeten som speglar mina intressen inom verksamhetsutveckling, digitalisering, informationssystem (IS), IT, och STS. Gemensamt för arbetena är ett fokus på hur människa och teknik kan samspela och forma varandra för att skapa värde för människor, verksamheter och samhälle. Klicka på bilderna för att läsa dokumentet i sin helhet.</p>
     <div class="grid-container">
         <article class="pdf-item">
@@ -80,19 +81,27 @@
             <a href="Dokument/726G33_HT25_assignment.pdf" target="_blank" rel="noopener noreferrer" class="pdf-preview-link" title="Master thesis">
                 <img width="50%" src="Images/game.PNG" alt="Preview av dokument 4" class="pdf-preview-image">
             </a>
-        </article>  
+        </article> 
+    </details> 
+    </div>
+</section>
+
+<section class="spec-section">
+    <div class="flex-container">
+        <div class="text-container">
+            <h2>Visste du att...</h2>
+            <button class="cta-button secondary funfact" onclick="visaSvar()"">Vadå?</button>
+
+            <p id="svar"></p>
+            
+        </div>
     </div>
 </section>
 
 <section id="my-work">
-    <h2>Tidigare arbeten</h2>
-    <p class="secret-achievement">.<span>🏆Secret achievement unlocked<br><br>
-                <strong>Detaljjägare</strong><br><br>
-                Detta säger sannolikt mer om din nyfikenhet än om sidans funktionalitet.
-
-            </span>
-
-            </p>
+    <details id="main-work">
+    <summary class="main-summary"><h2>Tidigare arbeten</h2></summary>
+    
     <div class="flex-container">
         <div class="jobb">
             <div class="text-container">
@@ -101,11 +110,11 @@
             <p>Genom daglig kundkontakt har jag fått mycket god kännedom om slutanvändares behov och utmaningar. Det har samtidigt gett god förståelse för de utmaningar och motstånd som verksamheter möter vid förändringsarbete. Utöver den dagliga kontakten har jag samtidigt fått vara med vid major incidents, och hur dessa hanteras. Här har jag fått vara med och förbättrat servicedeskens rutiner och ärendehantering.</p>
             </details>
             <details>
-            <summary><h3>Internationell koordinator | LiU</h3></summary>
+            <summary><h3>Internationell koordinator | Linköpings universitet</h3></summary>
             <p>Mycket kontakt med utresande studenter, samt administrera Erasmus+ och bilaterala utreseavtal. Här har jag arbetat med förbättrade rutiner kring hur vi hanterar utreseärenden i Moveon, samt upprättat en manual för studentarbetare med liknande uppgifter</p>
             </details>
             <details>
-            <summary><h3>Utbildningsadministratör | Utbildningshjulet</h3></summary>
+            <summary><h3>Utbildningsadministratör | Utbildningshjulet   </h3></summary>
             <p>Samordning och kontakt gällande utbildningar inom heta arbeten, ADR och APV.</p>
             </details>
             <details>
@@ -120,24 +129,277 @@
             <summary><h3>Förskolepedagog | Linköpings kommun</h3></summary>
             <p>Här började jag arbetat som vikarie, där jag senare fick anställning på en garantiförskola med ansvarsområden över ekonomin och inköp</p>
             </details>
-
+    
+    </details>
              </div>
         </div>
     </div>
 </section>
 
-<section id="kontakt">
-    <h2>Kontaktuppgifter</h2>
-    <div class="kontakt-lankar">
-        <a href="https://www.linkedin.com/in/welcometoprintz/" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-linkedin"></i>
-            LinkedIn</a>
-            <i class="fas fa-evnelope"></i>
-        <a href="mailto:lie.p@hotmail.com">lie.p@hotmail.com</a></li>       
-    
 
+<section id="my-skola">
+    <details id="main-skola">
+    <summary class="main-summary"><h2>Tidigare universitetsstudier</h2></summary>
+    
+    <div class="flex-container">
+        <div class="jobb">
+            <div class="text-container">
+            <details>
+            <summary><h3>IT och management Masterprogram</h3></summary>
+             <p>Genom utbildningen har jag utvecklat en bred förståelse för samspelet mellan teknik, organisationer, individ och samhälle.
+                            Utbildningen har gett mig verktyg att analysera digitalisering, informationssystem och verksamhetsförändring, samtidigt som den belyst såväl möjligheterna som ansvar och de etiska, samhälleliga och organisatoriska utmaningar som följer teknikutvecklingen.
+                            </p>
+                            <div class="table-container">
+                                <table class="courses-table">
+
+                                    <tr>
+                                        <th>Kurskod</th>
+                                        <th>Kursnamn</th>
+                                    </tr>
+                                    <tr>
+                                        <td>725A48</td>
+                                        <td>Introduktion till IT och management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A44</td>
+                                        <td>Kvalitativ forskning om IT och management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A50</td>
+                                        <td>Projektledning inom agila digitaliseringsprojekt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A51</td>
+                                        <td>Digital innovation och design</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A52</td>
+                                        <td>Digital förvaltning - från idé till praktik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A53</td>
+                                        <td>IT-styrning vid digitalisering</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A28</td>
+                                        <td>Praktik - Samverkan, profession och roller</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A54</td>
+                                        <td>Forskningsprojekt inom informatik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>726G33</td>
+                                        <td>Co-creating digital solutions and automation</td>
+                                    </tr>
+                                    <tr>
+                                        <td>726G31</td>
+                                        <td>Digital innovation strategy and entrepreneurship</td>
+                                    </tr>
+                                    <tr>
+                                        <td>733A89</td>
+                                        <td>Ledarskap och styrning i offentliga organisationer</td>
+                                    </tr>
+                                    <tr>
+                                        <td>725A56</td>
+                                        <td>Masteruppsats i informatik</td>
+                                    </tr>
+                                </table>
+                            </div>
+            </details>
+
+            <details>
+            <summary><h3>Besluts-, risk och policyanalys Magisterprogram</h3></summary>
+             <p>Genom utbildningen har jag fått en djupare förståelse för hur komplexa beslut fattas och vilka faktorer som påverkar dem. 
+                Jag har lärt mig att analysera risker, väga olika intressen mot varandra och bedöma beslutsunderlag utifrån vetenskapliga, etiska och samhälleliga perspektiv. 
+                Utbildningen har också gett mig erfarenhet av att använda analytiska metoder och beslutsstöd för att hantera komplexa frågor.
+                            </p>
+                            <div class="table-container">
+                                <table class="courses-table">
+
+                                    <tr>
+                                        <th>Kurskod</th>
+                                        <th>Kursnamn</th>
+                                    </tr>
+                                    <tr>
+                                        <td>BEA002</td>
+                                        <td>Beslut och risk i teori och praktik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BEA307</td>
+                                        <td>Mätnings- och värdeteori</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BEA308</td>
+                                        <td>Kommande - Teori och teknik för komplexa beslut</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BEA209</td>
+                                        <td>Kommande - Specialisering inom Besluts-, risk <br> och policyanalys</td>
+                                    </tr>
+                                    <tr>
+                                        <td>BEA701</td>
+                                        <td>Kommande - Examensarbete</td>
+                                    </tr>                                    
+                                </table>
+                            </div>
+            </details>  
+            <details>
+            <summary><h3>Human resources Kandidatprogram</h3></summary>
+             <p>Genom utbildningen har jag utvecklat en förståelse för hur organisationer fungerar, både ur individ-, grupp- och organisationsperspektiv.
+                Jag har fördjupat mina kunskaper inom organisations- och beteendevetenskap, förändringsledning och kompetensutveckling. 
+                Utbildningen har gett mig verktyg för att analysera organisatoriska utmaningar, förstå mänskligt beteende och arbeta med utveckling och förändring i komplexa verksamheter.
+                            </p>
+                            <div class="table-container">
+                                <table class="courses-table">
+                                    <tr>
+                                        <th>Kurskod</th>
+                                        <th>Kursnamn</th>
+                                    </tr>
+                                    <tr>
+                                        <td>759G57</td>
+                                        <td>Beteendevetenskapligt personalarbete -<br>en introduktion och integration</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G56</td>
+                                        <td>Personalarbete och forskningsmetoder</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G07</td>
+                                        <td>Lärande och kompetensutveckling i arbetslivet</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G06</td>
+                                        <td>Samhälle och arbetsliv</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G10</td>
+                                        <td>Individer och grupper i arbetslivet</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>759G61</td>
+                                        <td>HR-arbete - utveckling och modeller</td>
+                                    </tr>
+                                    <tr>
+                                        <td>747G49</td>
+                                        <td>Arbetsrätt</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>759G58</td>
+                                        <td>Kompetensförsörjning med fokus på rekrytering</td>
+                                    </tr>
+                                    <tr>
+                                        <td>722G06</td>
+                                        <td>Företags- och personalekonomi</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>759G59</td>
+                                        <td>Konflikt- och mobbningshantering i arbetslivet</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G39</td>
+                                        <td>Arbete och hälsa</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>759G52</td>
+                                        <td>Arbetsplatsförlagd utbildning</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G64</td>
+                                        <td>HR för hållbar utveckling</td>
+                                    </tr>
+                                                                        <tr>
+                                        <td>759G62</td>
+                                        <td>Human Resource Management</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G45</td>
+                                        <td>HRD: Lärande, förändrings- <br>och utvecklingsarbete i organsationer</td>
+                                    </tr>
+                                    </tr>
+                                    <tr>
+                                        <td>759G47</td>
+                                        <td>Forskningsmetodik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>759G50</td>
+                                        <td>Kandidatuppsats</td>
+                                    </tr>                                      
+                                </table>
+                            </div>
+            </details> 
+
+            <details>
+            <summary><h3>Fristående kurser</h3></summary>
+             <p>Jag har även läst ett flertal fristående kurser, både på grundnivå och avancerad nivå. Detta för att komplettera mina ordinarie utbildningar och fördjupa mig i områden som intresserar mig. Kurserna har omfattat bland annat ledarskap, projektledning, entreprenörskap och AI med fokus på deep learning.
+                Genom att kombinera kunskaper från olika ämnesområden har jag byggt upp en bredare förståelse för hur människor, organisationer och teknik påverkar varandra i både arbetsliver och samhället.
+                            </p>
+                            <div class="table-container">
+                                <table class="courses-table">
+                                    <tr>
+                                        <td>1FE943</td>
+                                        <td>Hälsofrämjande ledarskap</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SO096G</td>
+                                        <td>Sociologi GR (A) Ledarskap och organisationsteori</td>
+                                    </tr>                                    
+                                    <tr>
+                                        <td>FIAIF0</td>
+                                        <td>Philosophy of Artificial Intelligence</td>
+                                    </tr>
+                                    <tr>
+                                        <td>721G01</td>
+                                        <td>Etik</td>
+                                    </tr>
+                                    <tr>
+                                        <td>747G41</td>
+                                        <td>Arbetsrätt</td>
+                                    </tr>
+                                    <tr>
+                                        <td>738G26</td>
+                                        <td>Retorik: att tala</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GV5002</td>
+                                        <td>Män och maskuliniteter</td>
+                                    </tr>
+                                    <tr>
+                                        <td>SO121G</td>
+                                        <td>Sociologi GR (A), Feministiska perspektiv på kris, <br>krisberedskap och krishantering</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1SV108</td>
+                                        <td>Akademiskt skrivande</td>
+                                    </tr>
+                                </table>
+                            </div>
+            </details>
+            
+
+
+    </details>
+             </div>
+        </div>
     </div>
 </section>
 
+
+<section id="kontakt">
+    <h2>Kontaktuppgifter</h2>
+    <div class="kontakt-lankar">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:lie.p@hotmail.com">lie.p@hotmail.com</a></li>
+        <a href="https://www.linkedin.com/in/welcometoprintz/" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-linkedin"></i>
+            LinkedIn</a>
+        <br><br>
+    </div>
+        <p>Tack för att du besökt min sida! Om något här har väckt din nyfikenhet, eller om du vill ta del av examensbevis och resultatintyg, är du varmt välkommen att höra av dig via e-post eller LinkedIn.</p>
+    
+</section>
+<div id="achievement"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
