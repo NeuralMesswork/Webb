@@ -2,15 +2,15 @@
 
 function visaSvar() {
     const svar = [
-        "webbsidan är frontendutvecklad i HTML, CSS och Javascript, Källkodhantering i GitHub, deployment via hostingplattform och exponerad genom egen domän med kryptering.",
+        "Dntden här webbplatsen inte är uppbyggd i något färdigt webbhotell. Hela lösningen är utvecklad och underhållen av mig, från frontend-kod till publicering och domänhantering. HTML, CSS, JavaScript → Versionshantering → Hostingplattform → DNS-tjänst → Eget domännamn → Besökare",
         "under min masteruppsats gick det åt mer än 1060 koppar kaffe.",
         "jag älskar Lord of the rings så mycket att jag läst böckerna minst en gång vartannat år sedan högstadiet.",
         "jag gärna lär mig nya tekniska verktyg bara för att förstå hur de fungerar. Precis som jag gjorde under mitt webbplats-bygge.",
         "jag är team mörkt tema.",
-        "jag inte kan vissla.",
         "jag har läst färdigt 405 hp på universitetet, vilket motsvarar ungefär 10 800 timmar",
         "min favoritårstid är vinter.",
-        "när andra samlar frimärken, samlar jag på artiklar att läsa senare.",
+        "webbplatsen började som ett privat sidoprojekt. Jag byggde den själv med målet att lära mig mer om digital utveckling, kod och systemarkitektur. För mig visar projektet min nyfikenhet och intresse för teknik, kontinuerligt lärande och problemlösning.",
+        "när andra samlar frimärken, samlar jag på artiklar att läsa senare (och senare glömt varför jag sparat den).",
         "jag brukar läsa recensionerna innan jag bestämmer mig för något."
     ];
 
