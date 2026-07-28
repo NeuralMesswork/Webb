@@ -64,7 +64,7 @@ document.addEventListener("click", function() {
         visaAchievement("🦄 Secret achievement unlocked: Ingen förväntade sig att du skulle komma hit");
     }
     
-    if (klick === 1000) {
+    if (klick === 1400) {
         visaAchievement("👸 Achievement unlocked: Tack Mario! Din strävan är över");
     }
     });
