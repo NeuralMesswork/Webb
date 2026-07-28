@@ -53,7 +53,7 @@ document.addEventListener("click", function() {
     }
     
     if (klick === 400) {
-        visaAchievement(" Secret achievement unlocked: Grattis. Du klickade 400 gånger för en potatis");
+        visaAchievement("🥔 Secret achievement unlocked: Grattis. Du klickade 400 gånger för en potatis");
     }
 
     if (klick === 500) {
