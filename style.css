@@ -472,3 +472,7 @@ section {
     display: none;
     z-index: 9999;
 }
+
+#svar {
+    white-space: pre-line;
+}
