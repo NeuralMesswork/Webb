@@ -2,7 +2,7 @@
 
 function visaSvar() {
     const svar = [
-        "Dntden här webbplatsen inte är uppbyggd i något färdigt webbhotell. Hela lösningen är utvecklad och underhållen av mig, från frontend-kod till publicering och domänhantering. HTML, CSS, JavaScript → Versionshantering → Hostingplattform → DNS-tjänst → Eget domännamn → Besökare",
+        "den här webbplatsen inte är uppbyggd i något färdigt webbhotell. Hela lösningen är utvecklad och underhållen av mig, från frontend-kod till publicering och domänhantering.\n\nHTML, CSS, JavaScript → Versionshantering → Hostingplattform → DNS-tjänst → Eget domännamn → Besökare",
         "under min masteruppsats gick det åt mer än 1060 koppar kaffe.",
         "jag älskar Lord of the rings så mycket att jag läst böckerna minst en gång vartannat år sedan högstadiet.",
         "jag gärna lär mig nya tekniska verktyg bara för att förstå hur de fungerar. Precis som jag gjorde under mitt webbplats-bygge.",
