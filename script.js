@@ -77,5 +77,5 @@ function visaAchievement(text) {
     
     setTimeout(() => {
         achievement.style.display = "none";
-    }, 7000);
+    }, 6000);
 }
